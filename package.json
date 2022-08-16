@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --base-href /angular-partytown-yandex-repro/ --deploy-url /angular-partytown-yandex-repro/",
+    "build:prod": "ng build --configuration production --base-href /angular-partytown-yandex-repro/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
