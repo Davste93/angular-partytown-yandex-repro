@@ -10,7 +10,6 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { APP_BASE_HREF } from '@angular/common';
 
-console.log('test');
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
   declarations: [ AppComponent, HelloComponent, SecondPageComponent, HeaderComponent, HomeComponent ],
