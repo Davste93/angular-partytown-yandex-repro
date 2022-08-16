@@ -5,7 +5,7 @@
         partytown = {
             debug: true,
             resolveUrl: function (url, location, type) {
-                if (url && url.href && url.href.contains('vars.hotjar.com')) {
+                if (url && url.href && url.href.includes('vars.hotjar.com')) {
                     var proxyUrl = new URL('https://crossorigin.me/' + url.href);
                     return proxyUrl;
                 }
