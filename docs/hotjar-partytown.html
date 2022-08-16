@@ -6,7 +6,7 @@
             debug: true,
             resolveUrl: function (url, location, type) {
                 if (url && url.href && url.href.includes('vars.hotjar.com')) {
-                    var proxyUrl = new URL('https://crossorigin.me/' + url.href);
+                    var proxyUrl = new URL('https://api.codetabs.com/v1/proxy?quest=' + url.href);
                     return proxyUrl;
                 }
                 return url;
