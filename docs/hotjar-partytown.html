@@ -4,6 +4,13 @@
     <script>
         partytown = {
             debug: true,
+            resolveUrl: function (url, location, type) {
+                if (url.href.contains('vars.hotjar.com')) {
+                    var proxyUrl = new URL('https://crossorigin.me/' + url.href);
+                    return proxyUrl;
+                }
+                return url;
+            },
             lib: "/angular-partytown-yandex-repro/partytown/"
         };
     </script>
