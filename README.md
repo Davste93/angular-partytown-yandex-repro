@@ -1,3 +1,3 @@
 # angular-partytown-yandex
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-partytown-yandex)
+Very quick and dirty repro of Yandex + Angular + Partytown integration.
